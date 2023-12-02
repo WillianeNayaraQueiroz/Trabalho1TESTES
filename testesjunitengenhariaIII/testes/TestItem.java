@@ -12,6 +12,8 @@ class TestItem {
 		Item i1 = new Item(l1);
 		Calendar data_obtida = i1.calculaDataDevolucao();
 		
+	 // Cria uma Calendar com a data esperada (2 dias após a data atual)
+
 		Calendar data_esperada = Calendar.getInstance();
 		data_esperada.add(Calendar.DATE, 2);
 		
